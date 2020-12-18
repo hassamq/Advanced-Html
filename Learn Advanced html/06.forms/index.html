@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1 style="color: red;">Forms Demo</h1>
+    <form action="/reg">
+    <p>
+        <label for="username">Enter your username</label>
+        <input type="text" placeholder="username" id="username" name="username">
+    </p>
+
+    <p>
+        <label for="password">Enter password</label>
+        <input type="password" placeholder="password" id="password" name="password">
+    </p>
+
+    <p>
+        <label for="dob">Date of birth</label>
+        <input type="date" placeholder="Date of birth" id="dob" name="dob">
+    </p>
+
+    <p>
+        <label for="cn">country</label>
+        <select name="country" id="cn">
+            <option value="">--Select your country--</option>
+            <option value="pakistan" >pakistan</option>
+            <option value="india" >India</option>
+            <option value="iran" >Iran</option>
+            <option value="Bangladesh >Bangladesh</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        
+    </p>
+     
+    <button type="submit">Submit</button>
+    </form>
+
+
+    <h1>Search on google</h1>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search</button>
+    </form>
+</body>
+</html>
